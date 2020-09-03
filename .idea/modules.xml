@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KotlinStudy.iml" filepath="$PROJECT_DIR$/.idea/modules/KotlinStudy.iml" group="KotlinStudy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="KotlinStudy/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multiple-status-view/multiple-status-view.iml" filepath="$PROJECT_DIR$/.idea/modules/multiple-status-view/multiple-status-view.iml" group="KotlinStudy/multiple-status-view" />
+    </modules>
+  </component>
+</project>
