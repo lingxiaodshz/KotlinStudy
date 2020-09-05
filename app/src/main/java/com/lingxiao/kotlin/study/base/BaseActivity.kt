@@ -28,16 +28,13 @@ abstract class BaseActivity : AppCompatActivity(), EasyPermissions.PermissionCal
         initListener()
     }
 
-    open protected fun initData() {
-        TODO("Not yet implemented")
+    protected open fun initData() {
     }
 
-    open protected fun initView() {
-        TODO("Not yet implemented")
+    protected open fun initView() {
     }
 
-    open protected fun start() {
-        TODO("Not yet implemented")
+    protected open fun start() {
     }
 
     private fun initListener() {
