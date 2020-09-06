@@ -2,11 +2,10 @@ package com.lingxiao.kotlin.study.splash
 
 import android.Manifest
 import android.content.Intent
-import android.content.res.AssetManager
 import android.graphics.Typeface
 import android.view.animation.AlphaAnimation
 import android.view.animation.Animation
-import com.lingxiao.kotlin.study.MainActivity
+import com.lingxiao.kotlin.study.main.MainActivity
 import com.lingxiao.kotlin.study.R
 import com.lingxiao.kotlin.study.base.BaseActivity
 import com.lingxiao.kotlin.study.utils.AppUtils
