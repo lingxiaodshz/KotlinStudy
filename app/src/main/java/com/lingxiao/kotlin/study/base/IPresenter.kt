@@ -12,6 +12,6 @@ package com.lingxiao.kotlin.study.base
 // 父类泛型对象可以赋值给子类泛型对象，用 in；
 
 interface IPresenter<in V : IBaseView> {
-    fun attach(rootView: IBaseView)
+    fun attachView(rootView: V)
     fun detachView()
 }

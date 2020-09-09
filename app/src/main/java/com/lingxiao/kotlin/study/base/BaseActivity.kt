@@ -89,6 +89,10 @@ abstract class BaseActivity : AppCompatActivity(), EasyPermissions.PermissionCal
 
     }
 
+    open fun showToast(str: String) {
+        Toast.makeText(this, str, Toast.LENGTH_SHORT).show()
+    }
+
     override fun onPermissionsGranted(requestCode: Int, perms: MutableList<String>) {
     }
 
