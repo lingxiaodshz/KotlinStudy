@@ -6,10 +6,10 @@ import android.view.KeyEvent
 import android.widget.Toast
 import com.flyco.tablayout.listener.CustomTabEntity
 import com.flyco.tablayout.listener.OnTabSelectListener
-import com.hazz.kotlinmvp.mvp.model.bean.TabEntity
 import com.lingxiao.kotlin.common.MultipleStatusView
 import com.lingxiao.kotlin.study.R
 import com.lingxiao.kotlin.study.base.BaseActivity
+import com.lingxiao.kotlin.study.bean.TabEntity
 import com.lingxiao.kotlin.study.main.discovery.DiscoveryFragment
 import com.lingxiao.kotlin.study.main.home.HomeFragment
 import com.lingxiao.kotlin.study.main.hot.HotFragment
@@ -107,6 +107,9 @@ class MainActivity : BaseActivity() {
                     mMineFragment = it
                     transaction.add(R.id.fl_container, it, "mine")
                 }
+            }
+            else -> {
+
             }
         }
 
